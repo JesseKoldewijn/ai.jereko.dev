@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { GeistMono as geistMono } from "geist/font/mono";
 import { GeistSans as geistSans } from "geist/font/sans";
 
-import "./globals.css";
+import "~/styles/globals.css";
 import { cn } from "~/lib/utils";
 
 export const metadata: Metadata = {
